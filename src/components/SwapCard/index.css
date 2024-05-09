@@ -254,14 +254,17 @@ button {
 }
 
 .bVSwXO {
-  background-color: rgb(255, 239, 255);
-  color: rgb(252, 114, 255);
+  transition: transform 0.3s ease;
+  background-color: rgb(253, 229, 253);
+  color: rgb(251, 69, 254);
   font-size: 20px;
   font-weight: 535;
 }
 
 .bVSwXO:hover {
-  background-color: rgb(255, 239, 255);
+  background-color: rgb(249, 101, 249);
+  color: rgb(252, 249, 252);
+  transform: scale(0.95);
 }
 
 .bioPhc {
